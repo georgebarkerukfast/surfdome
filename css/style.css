@@ -1,0 +1,111 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+}
+
+#mainContainer
+{
+	margin: auto auto;
+	width: 1200px;
+}
+
+#mainViewport
+{
+	background-image: url(../images/head_placeholder.png);
+	height: 100vh;
+}
+
+header
+{
+	padding-top: 50px;
+}
+
+#logoContainer
+{
+	width: 265px;
+	height: 68px;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+h1
+{
+	font-size: 3.1em;
+	
+}
+
+h2
+{
+	font-family: sans-serif;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#cart
+{
+	display: inline-block;
+	padding-top: 50px;
+}
+
+#cartTop
+{
+	background-color: white;
+	text-transform: uppercase;
+	color:  #fb4d01;
+	width: 270px;
+	height: 27px;
+}
+
+#cartLogin
+{
+	height: 100%;
+	width: 50%;
+	background-color: white;
+	float: left;
+}
+
+#wishList
+{
+	height: 100%;
+	width: 50%;
+	background-color: white;
+	float: right;
+}
+
+#cartMiddle
+{
+	background-color: #fb4d01;
+	height: 62px;
+}
+
+#cartBottom
+{
+	
+	height: 27px;
+}
+
+#viewCart
+{
+	height: 100%;
+	background-color: #ee4a02;
+	width: 50%;
+	float: left;
+}
+
+#checkout
+{
+	height: 100%;
+	background-color: #ee4a02;
+	float: right;
+	width: 50%;
+}
+
+#viewCart:hover, #checkout:hover
+{
+	background-color: #e24602;
+}
