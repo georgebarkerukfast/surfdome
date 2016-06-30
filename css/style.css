@@ -5,7 +5,13 @@
 	font-family: Raleway, sans-serif;
 }
 
-#mainContainer, #bodyContentContainer
+#bodyContentContainer
+{
+	margin: auto auto;
+	max-width: 1200px;
+}
+
+#headerContainer
 {
 	margin: auto auto;
 	width: 1200px;
@@ -15,14 +21,16 @@
 {
 	display: inline-block;
 	float: left;
-	width: 270px;
+	width: 22.5%;
+	background-color: purple;	
 }
 
 .rightContainer
 {
-	display: inline-block;
+	display: inline;
 	float: right;
-	width: 75%;
+	width: 60%;
+	margin: auto auto;
 }
 
 #mainViewport
@@ -330,7 +338,9 @@ h2
 
 body
 {
-	background-color:  #f8f8f8;
+/*	background-color:  #f8f8f8;
+	*/
+	background-color: darkblue;
 }
 
 #menu
@@ -437,8 +447,10 @@ background-color:  #faef03;
 {
 	display: inline;
 	background-color:  #f8f8f8;
-	min-width: 570px;
-	width: 100%;
+	color: darkorange;
+	float: left;
+/*	min-width: 570px;*/
+/*	width: 100%;*/
 }
 
 #newProducts h3, #topProducts h3, #saleProducts h3
@@ -468,24 +480,24 @@ background-color:  #faef03;
 #items
 {
 	margin-top: 30px;
+	display: inline;
 }
 
 .item
 {
 	background-color:  #ffffff;
-	width: 270px;
-	height: 320px;
+	position: relative;
+	min-width: 20%;
+	width: 200px;
 	display: inline-block;
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
-	position: relative;
 }
 
 .item img:not(.corner)
 {
-	width: 250px;
-	height: 235px;
+	width: 90%;
 	margin: auto auto
 }
 
@@ -729,3 +741,74 @@ footer
 {
 
 }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 768px) /*tablet*/
+{
+	body
+	{
+		background-color: yellow;
+	}
+	
+	.leftContainer
+	{
+		float: none;
+	}
+	
+	.rightContainer
+	{
+		
+		display: inline;
+		background-color: red;
+		width: 77.5%;
+	}
+}
+
+/*@media only screen and (max-width: 767px) and (min-width: 100px)  
+{
+	
+	body
+	{
+		background-color: palevioletred;
+	}
+	
+    h1 
+	{
+        color: lightblue;
+    }
+	
+	#rightIconsContainer, #slideInformation, #tagsWidget, #nowIsOpen, #welcome p, #logoContainer h2
+	{
+		display: none;
+		visibility: hidden;
+	}
+	
+	#mainContainer, #bodyContentContainer, body
+	{
+		margin: auto auto;
+		min-width: 100%;
+	}
+	
+	.leftContainer
+	{
+		display: inline;
+		min-width: 100%;
+	}
+	
+	.rightContainer
+	{
+		display: inline;
+		min-width: 100%;
+		
+	}
+	
+	#welcome
+	{
+		margin: auto auto;
+	}
+	
+	#logo
+	{
+		margin: auto auto;
+	}
+}*/

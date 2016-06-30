@@ -1,0 +1,42 @@
+@media only screen and (max-width: 900px) 
+{
+    h1 
+	{
+        color: lightblue;
+    }
+	
+	#rightIconsContainer, #slideInformation, #tagsWidget, #nowIsOpen, #welcome p, #logoContainer h2
+	{
+		display: none;
+		visibility: hidden;
+	}
+	
+	#mainContainer, #bodyContentContainer, body
+	{
+		margin: auto auto;
+		min-width: 100%;
+	}
+	
+	.leftContainer
+	{
+		display: inline;
+		min-width: 100%;
+	}
+	
+	.rightContainer
+	{
+		display: inline;
+		min-width: 100%;
+		
+	}
+	
+	#welcome
+	{
+		margin: auto auto;
+	}
+	
+	#logo
+	{
+		margin: auto auto;
+	}
+}
