@@ -393,8 +393,9 @@ body
 	height: 300px;
 	float: left;
 	display: inline;
-	background-size: contain;
-	background-image: url(../images/now-is-open.png);
+	background-size: cover;
+	/*background-image: url(../images/now-is-open.png);*/
+	background-image: url(../images/animated-now-is-open.gif);
 	margin-top: 10px;
 }
 
@@ -575,11 +576,12 @@ background-color:  #faef03;
 #imagesContainer
 {
 	height: 260px;
+	text-align: center;
 }
 
-#imagesContainer
+#videoContainer
 {
-	text-align: center;
+	margin-top: 10px;
 }
 
 .instagramImageContainer
@@ -607,6 +609,7 @@ background-color:  #faef03;
 	width: 100%;
 	float: right;
 	height: 150px;
+	margin-top: 280px;
 }
 
 .socialMediaButton
